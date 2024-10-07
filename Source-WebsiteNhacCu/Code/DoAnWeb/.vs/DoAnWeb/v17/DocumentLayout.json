@@ -1,0 +1,535 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AULA\\DoAnWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\guitar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\guitar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\guitar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\guitar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\cart.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\cart.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\constring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\constring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\piano.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\piano.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\trong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\trong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\loginpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\adminpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\thanhtoan\\paymentinformationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\thanhtoan\\paymentinformationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\thanhtoan\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\thanhtoan\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\thanhtoan\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\thanhtoan\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\thanhtoan\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\thanhtoan\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\thanhtoan\\paymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\thanhtoan\\paymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\libraries\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\libraries\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\info.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\info.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\loginpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\loginpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\registerpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\registerpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\wwwroot\\css\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\wwwroot\\css\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\registerpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\registerpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\thanhtoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\pages\\homepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\pages\\homepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\wwwroot\\css\\registerpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\wwwroot\\css\\registerpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\wwwroot\\css\\loginpage2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\wwwroot\\css\\loginpage2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|d:\\aula\\doanweb\\doanweb\\doanweb.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{9892FAAE-C4CF-4672-85D4-57C3E80417FA}|DoAnWeb\\DoAnWeb.csproj|solutionrelative:doanweb\\doanweb.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Cart.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\Cart.cshtml",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Cart.cshtml",
+              "RelativeToolTip": "DoAnWeb\\Pages\\Cart.cshtml",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAiwIEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:08:55.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePage.cshtml",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\HomePage.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\HomePage.cshtml",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\HomePage.cshtml",
+              "RelativeToolTip": "DoAnWeb\\Pages\\HomePage.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwGIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:08:55.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Info.cshtml",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Info.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\Info.cshtml",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Info.cshtml",
+              "RelativeToolTip": "DoAnWeb\\Pages\\Info.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:08:55.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginPage.cshtml",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\LoginPage.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\LoginPage.cshtml",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\LoginPage.cshtml",
+              "RelativeToolTip": "DoAnWeb\\Pages\\LoginPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:08:55.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Piano.cshtml",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Piano.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\Piano.cshtml",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Piano.cshtml",
+              "RelativeToolTip": "DoAnWeb\\Pages\\Piano.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwDcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:08:55.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Trong.cshtml",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Trong.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\Trong.cshtml",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Trong.cshtml",
+              "RelativeToolTip": "DoAnWeb\\Pages\\Trong.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:08:55.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Guitar.cshtml",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Guitar.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\Guitar.cshtml",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Guitar.cshtml",
+              "RelativeToolTip": "DoAnWeb\\Pages\\Guitar.cshtml",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAiwFsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:08:55.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Guitar.cshtml.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Guitar.cshtml.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\Guitar.cshtml.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Guitar.cshtml.cs",
+              "RelativeToolTip": "DoAnWeb\\Pages\\Guitar.cshtml.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAIwDwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cart.cshtml.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Cart.cshtml.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\Cart.cshtml.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Cart.cshtml.cs",
+              "RelativeToolTip": "DoAnWeb\\Pages\\Cart.cshtml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwC4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:32:00.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Constring.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Constring.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\Constring.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Constring.cs",
+              "RelativeToolTip": "DoAnWeb\\Constring.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminPage.cshtml",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\AdminPage.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\AdminPage.cshtml",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\AdminPage.cshtml",
+              "RelativeToolTip": "DoAnWeb\\Pages\\AdminPage.cshtml",
+              "ViewState": "AQIAAOkBAAAAAAAAAAAAAKwBAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:08:55.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Program.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\Program.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Program.cs",
+              "RelativeToolTip": "DoAnWeb\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PaymentResponseModel.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\ThanhToan\\PaymentResponseModel.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\ThanhToan\\PaymentResponseModel.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\ThanhToan\\PaymentResponseModel.cs",
+              "RelativeToolTip": "DoAnWeb\\ThanhToan\\PaymentResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IVnPayService.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\ThanhToan\\IVnPayService.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\ThanhToan\\IVnPayService.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\ThanhToan\\IVnPayService.cs",
+              "RelativeToolTip": "DoAnWeb\\ThanhToan\\IVnPayService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentInformationModel.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\ThanhToan\\PaymentInformationModel.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\ThanhToan\\PaymentInformationModel.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\ThanhToan\\PaymentInformationModel.cs",
+              "RelativeToolTip": "DoAnWeb\\ThanhToan\\PaymentInformationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Libraries\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\Libraries\\VnPayLibrary.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Libraries\\VnPayLibrary.cs",
+              "RelativeToolTip": "DoAnWeb\\Libraries\\VnPayLibrary.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "DoAnWeb\\appsettings.json",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\appsettings.json",
+              "RelativeToolTip": "DoAnWeb\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-21T14:08:55.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\ThanhToan\\HomeController.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\ThanhToan\\HomeController.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\ThanhToan\\HomeController.cs",
+              "RelativeToolTip": "DoAnWeb\\ThanhToan\\HomeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB4AAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VnPayService.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\ThanhToan\\VnPayService.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\ThanhToan\\VnPayService.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\ThanhToan\\VnPayService.cs",
+              "RelativeToolTip": "DoAnWeb\\ThanhToan\\VnPayService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterPage.cshtml.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\RegisterPage.cshtml.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\RegisterPage.cshtml.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\RegisterPage.cshtml.cs",
+              "RelativeToolTip": "DoAnWeb\\Pages\\RegisterPage.cshtml.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA8wCUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Info.cshtml.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Info.cshtml.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\Info.cshtml.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\Info.cshtml.cs",
+              "RelativeToolTip": "DoAnWeb\\Pages\\Info.cshtml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwCoAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginPage.cshtml.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\LoginPage.cshtml.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\LoginPage.cshtml.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\LoginPage.cshtml.cs",
+              "RelativeToolTip": "DoAnWeb\\Pages\\LoginPage.cshtml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\ProductDetail.cshtml",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\ProductDetail.cshtml",
+              "RelativeToolTip": "DoAnWeb\\Pages\\ProductDetail.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:08:55.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomePage.css",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\wwwroot\\css\\HomePage.css",
+              "RelativeDocumentMoniker": "DoAnWeb\\wwwroot\\css\\HomePage.css",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\wwwroot\\css\\HomePage.css",
+              "RelativeToolTip": "DoAnWeb\\wwwroot\\css\\HomePage.css",
+              "ViewState": "AQIAALEAAAAAAAAAAAAAANUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-21T14:08:55.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RegisterPage.cshtml",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\RegisterPage.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\RegisterPage.cshtml",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\RegisterPage.cshtml",
+              "RelativeToolTip": "DoAnWeb\\Pages\\RegisterPage.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAIwCoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:08:55.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ThanhToan.cshtml",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\ThanhToan.cshtml",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\ThanhToan.cshtml",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\ThanhToan.cshtml",
+              "RelativeToolTip": "DoAnWeb\\Pages\\ThanhToan.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAGYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-21T14:08:55.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DoAnWeb\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DoAnWeb\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-21T14:08:55.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "DoAnWeb\\appsettings.Development.json",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\appsettings.Development.json",
+              "RelativeToolTip": "DoAnWeb\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-21T14:08:55.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegisterPage.css",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\wwwroot\\css\\RegisterPage.css",
+              "RelativeDocumentMoniker": "DoAnWeb\\wwwroot\\css\\RegisterPage.css",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\wwwroot\\css\\RegisterPage.css",
+              "RelativeToolTip": "DoAnWeb\\wwwroot\\css\\RegisterPage.css",
+              "ViewState": "AQIAANUAAAAAAAAAAAAYwPkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-21T14:08:55.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HomePage.cshtml.cs",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\HomePage.cshtml.cs",
+              "RelativeDocumentMoniker": "DoAnWeb\\Pages\\HomePage.cshtml.cs",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\Pages\\HomePage.cshtml.cs",
+              "RelativeToolTip": "DoAnWeb\\Pages\\HomePage.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T14:08:55.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoginPage2.css",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\wwwroot\\css\\LoginPage2.css",
+              "RelativeDocumentMoniker": "DoAnWeb\\wwwroot\\css\\LoginPage2.css",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\wwwroot\\css\\LoginPage2.css",
+              "RelativeToolTip": "DoAnWeb\\wwwroot\\css\\LoginPage2.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-21T14:08:55.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DoAnWeb",
+              "DocumentMoniker": "D:\\AULA\\DoAnWeb\\DoAnWeb\\DoAnWeb.csproj",
+              "RelativeDocumentMoniker": "DoAnWeb\\DoAnWeb.csproj",
+              "ToolTip": "D:\\AULA\\DoAnWeb\\DoAnWeb\\DoAnWeb.csproj",
+              "RelativeToolTip": "DoAnWeb\\DoAnWeb.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-21T14:08:55.569Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

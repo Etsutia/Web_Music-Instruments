@@ -1,0 +1,575 @@
+﻿@page
+@model DoAnWeb.Pages.HomePageModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhạc cụ Thành Đạt</title>
+    <link rel="stylesheet" href="~/css/HomePage.css">
+    <link rel="stylesheet" href="~/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/LoginPage" type="text/html" rel="stylesheet" />
+    <script src="~/js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="HomePage">Nhạc cụ Đạt<b style="color: red;">P</b></a></div>
+            <div class="search_box">
+                <input type="search" placeholder="Tìm kiếm">
+                <span class="fa fa-search"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <ion-icon name="list-outline"></ion-icon>
+                        Doanh mục sản phẩm
+                    </a>
+                    <ul class="dropdown">
+                        <li><a href="Piano">Đàn Piano</a></li>
+                        <li><a href="Guitar">Đàn Guitar</a></li>
+                        <li><a href="Trong">Trống</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Cart">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        Giỏ hàng
+                    </a>
+                </li>
+            </ul>
+            @if (User.Identity.IsAuthenticated)
+             {
+                
+                <ul id="TaiKhoan">
+                    <li>
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        Tài Khoản
+                        <ul class="dropdown">
+                            <li>
+                                <a href="Info">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                    Thông tin
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <ion-icon name="help-outline"></ion-icon>
+                                    Trợ giúp
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" onclick="logout()" >
+                                    <ion-icon name="log-out-outline"></ion-icon>
+                                    Đăng xuất
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+             }
+             else{
+                <ul>
+                   <li><a href="RegisterPage">Đăng ký</a></li>
+                   <li><a href="LoginPage">Đăng nhập</a></li>
+                </ul> 
+             }
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>SẢN PHẨM BÁN CHẠY</h2>
+            <div class="product">
+                <table id="SanPhamBanChay">
+                    <tr id="HinhNhacCu">
+                        <td>
+                            <img src="~/images/dan-piano-roland.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/dan-piano-dien-yamaha-p-s500-đen_2331.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <a href="ProductDetail"><img src="~/images/Dan-Acoustic-guitar.jpg" class="zoom-image img-fluid"></a>
+                        </td>
+                        <td>
+                            <img src="~/images/dan-guitar-cordoba.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/bo-trong-pearl-roadshow.png" class="zoom-image img-fluid">
+                        </td>
+                    </tr>
+                    <tr id="TenNhacCu">
+                        <td>
+                            Đàn Piano Yamaha YDP 105R
+                        </td>
+                        <td>
+                            Đàn Piano Yamaha PS500
+                        </td>
+                        <td>
+                            Đàn Guitar Acoustic Yamaha JR2
+                        </td>
+                        <td>
+                            Đàn Guitar Crodoba C1WB
+                        </td>
+                        <td>
+                            Bộ trống Pearl Roadshow PSC
+                        </td>
+                    </tr>
+                    <tr id="GiaBan">
+                        <td>
+                            19.200.000 VNĐ
+                        </td>
+                        <td>
+                            39.425.000 VNĐ
+                        </td>
+                        <td>
+                            3.890.000 VNĐ
+                        </td>
+                        <td>
+                            4.770.000 VNĐ
+                        </td>
+                        <td>
+                            11.800.000 VNĐ
+                        </td>
+                    </tr>
+                    <tr id="GiaTruocKhiGiam">
+                        <td>
+                            29.200.000 VNĐ
+                        </td>
+                        <td>
+                            51.290.000 VNĐ
+                        </td>
+                        <td>
+                            3.290.000 VNĐ
+                        </td>
+                        <td>
+                            4.470.000 VNĐ
+                        </td>
+                        <td>
+                            10.800.000 VNĐ
+                        </td>
+                    </tr>
+                    <tr id="HinhNhacCu">
+                        <td>
+                            <img src="~/images/dan-piano-dien-roland-fp-e50.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/dan-guitar-classic-gc-20hv_3424.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/Dan-Classic-Guitar-CGS102A.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/Dan-Piano-dien-Yamaha-Clavinova-CSP-150WH.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/Bo-trong-JAZZ-Pearl-Export-EXX725FP.jpg" class="zoom-image img-fluid">
+                        </td>
+                    </tr>
+                    <tr id="TenNhacCu">
+                        <td>
+                            Đàn Piano Roland FP
+                        </td>
+                        <td>
+                            Đàn Guitar classic GC20
+                        </td>
+                        <td>
+                            Đàn Guitar Classic CGS
+                        </td>
+                        <td>
+                            Đàn Piano điện Yamaha Claviova CSP
+                        </td>
+                        <td>
+                            Bộ trống Pearl Export EX
+                        </td>
+                    </tr>
+                    <tr id="GiaBan">
+                        <td>
+                            19.200.000 VNĐ
+                        </td>
+                        <td>
+                            3.720.000 VNĐ
+                        </td>
+                        <td>
+                            3.890.000 VNĐ
+                        </td>
+                        <td>
+                            21.800.000 VNĐ
+                        </td>
+                        <td>
+                            11.425.000 VNĐ
+                        </td>
+                    </tr>
+                    <tr id="GiaTruocKhiGiam">
+                        <td>
+                            29.200.000 VNĐ
+                        </td>
+                        <td>
+                            4.420.000 VNĐ
+                        </td>
+                        <td>
+                            5.290.000 VNĐ
+                        </td>
+                        <td>
+                            24.900.000 VNĐ
+                        </td>
+                        <td>
+                            15.225.000 VNĐ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                            <button class="btn_XemThem">Xem thêm</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <hr />
+
+            <h2>ĐÀN PIANO</h2>
+            <div class="product">
+                <table id="SanPhamBanChay">
+                    <tr id="HinhNhacCu">
+                        <td>
+                            <img src="~/images/dan-piano-roland.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/Dan-Piano-Yamaha-JU109PW.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/Dan-Piano-Clavionva-Yamaha-CVP-701B.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/dan-piano-dien-yamaha-p225wh_1513.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/Dan-Piano-dien-Yamaha-Clavinova-CSP-150WH.jpg" class="zoom-image img-fluid">
+                        </td>
+                    </tr>
+                    <tr id="TenNhacCu">
+                        <td>
+                            Đàn Piano Yamaha YDP 105R
+                        </td>
+                        <td>
+                            Đàn Piano Yamaha JU109
+                        </td>
+                        <td>
+                            Đàn Piano Clavionva Yamaha CVP
+                        </td>
+                        <td>
+                            Đàn Piano Yamaha CSP
+                        </td>
+                        <td>
+                            Đàn Piano điện Yamaha Claviova CSP
+                        </td>
+                    </tr>
+                    <tr id="GiaBan">
+                        <td>
+                            19.200.000 VNĐ
+                        </td>
+                        <td>
+                            31.425.000 VNĐ
+                        </td>
+                        <td>
+                            13.890.000 VNĐ
+                        </td>
+                        <td>
+                            34.720.000 VNĐ
+                        </td>
+                        <td>
+                            21.800.000 VNĐ
+                        </td>
+                    </tr>
+                    <tr id="GiaTruocKhiGiam">
+                        <td>
+                            22.200.000 VNĐ
+                        </td>
+                        <td>
+                            41.225.000 VNĐ
+                        </td>
+                        <td>
+                            15.290.000 VNĐ
+                        </td>
+                        <td>
+                            44.420.000 VNĐ
+                        </td>
+                        <td>
+                            24.900.000 VNĐ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                            <button class="btn_XemThem">Xem thêm</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <hr />
+
+            <h2>ĐÀN GUITAR</h2>
+            <div class="product">
+                <table id="SanPhamBanChay">
+                    <tr id="HinhNhacCu">
+                        <td>
+                            <a href="ProductDetail"><img src="~/images/Dan-Acoustic-guitar.jpg" class="zoom-image img-fluid"></a>
+                        </td>
+                        <td>
+                            <img src="~/images/dan-guitar-dien-cort-cr50-black.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/Dan-Classic-Guitar-CGS102A.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/dan-guitar-classic-gc-20hv_3424.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/dan-guitar-classic-gc-14hl_7533.jpg" class="zoom-image img-fluid">
+                        </td>
+                    </tr>
+                    <tr id="TenNhacCu">
+                        <td>
+                            Đàn Guitar Acoustic Yamaha JR2
+                        </td>
+                        <td>
+                            Đàn Guitar điện Cort C50
+                        </td>
+                        <td>
+                            Đàn Guitar Classic CGS
+                        </td>
+                        <td>
+                            Đàn Guitar classic GC20
+                        </td>
+                        <td>
+                            Đàn Guitar Classic GC14
+                        </td>
+                    </tr>
+                    <tr id="GiaBan">
+                        <td>
+                            3.290.000 VNĐ
+                        </td>
+                        <td>
+                            1.425.000 VNĐ
+                        </td>
+                        <td>
+                            3.890.000 VNĐ
+                        </td>
+                        <td>
+                            3.720.000 VNĐ
+                        </td>
+                        <td>
+                            2.800.000 VNĐ
+                        </td>
+                    </tr>
+                    <tr id="GiaTruocKhiGiam">
+                        <td>
+                            3.890.000 VNĐ
+                        </td>
+                        <td>
+                            2.225.000 VNĐ
+                        </td>
+                        <td>
+                            5.290.000 VNĐ
+                        </td>
+                        <td>
+                            4.420.000 VNĐ
+                        </td>
+                        <td>
+                            4.900.000 VNĐ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                            <button class="btn_XemThem">Xem thêm</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <hr />
+
+            <h2>TRỐNG</h2>
+            <div class="product">
+                <table id="SanPhamBanChay">
+                    <tr id="HinhNhacCu">
+                        <td>
+                            <img src="~/images/Bo-trong-JAZZ-Pearl-DMP925SP-C.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/Bo-trong-JAZZ-Pearl-Export-EXX725FP.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/bo-trong-jazz-pearl-exx705np-c760.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/bo-trong-jazz-yamaha-rdp2f5-deep-blue-sunburt.jpg" class="zoom-image img-fluid">
+                        </td>
+                        <td>
+                            <img src="~/images/bo-trong-pearl-roadshow.png" class="zoom-image img-fluid">
+                        </td>
+                    </tr>
+                    <tr id="TenNhacCu">
+                        <td>
+                            Bộ trống Jazz Pearl DMP
+                        </td>
+                        <td>
+                            Bộ trống Jazz Export EX
+                        </td>
+                        <td>
+                            Bộ trống Jazz Pearl EXX7
+                        </td>
+                        <td>
+                            Bộ trống Jazz Yamaha RDP
+                        </td>
+                        <td>
+                            Bộ trống Pearl Roadshow
+                        </td>
+                    </tr>
+                    <tr id="GiaBan">
+                        <td>
+                            13.290.000 VNĐ
+                        </td>
+                        <td>
+                            11.425.000 VNĐ
+                        </td>
+                        <td>
+                            13.890.000 VNĐ
+                        </td>
+                        <td>
+                            13.720.000 VNĐ
+                        </td>
+                        <td>
+                            12.800.000 VNĐ
+                        </td>
+                    </tr>
+                    <tr id="GiaTruocKhiGiam">
+                        <td>
+                            14.890.000 VNĐ
+                        </td>
+                        <td>
+                            15.225.000 VNĐ
+                        </td>
+                        <td>
+                            15.290.000 VNĐ
+                        </td>
+                        <td>
+                            14.420.000 VNĐ
+                        </td>
+                        <td>
+                            18.900.000 VNĐ
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <hr />
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer-container">
+            <table id="tb-footer">
+                <tr id="hea">
+                    <td>
+                        Công ty ĐạtP
+                    </td>
+                    <td>
+                        Chính Sách
+                    </td>
+                    <td>
+                        Trợ giúp nhanh
+                    </td>
+                    <td rowspan="6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62706.4872326794!2d106.68066304152362!3d10.79940349262307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ba1201ed3b%3A0xdbd5454f32a4294b!2zTmjhuqFjIGPhu6UgVGnhur9uIMSQ4bqhdA!5e0!3m2!1svi!2s!4v1713411274836!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ion-icon name="call-outline"></ion-icon>
+                        Hotline: 19xxxxxxx
+                    </td>
+                    <td>
+                        Chính sách đổi trả và hoàn tiền
+                    </td>
+                    <td>
+                        Khiếu nại & bồi thường
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                        Mobile: 0816063385
+                    </td>
+                    <td>
+                        Chính sách vận chuyển
+                    </td>
+                    <td>
+                        Hướng dẫn mua hàng
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ion-icon name="mail-outline"></ion-icon>
+                        Email: info@DatP.vn
+                    </td>
+                    <td>
+                        Điều khoản dịch vụ
+                    </td>
+                    <td>
+                        Hướng dẫn thanh toán
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        FaceBook: fb.com/DatP
+                    </td>
+                    <td>
+                        Góp ý - Báo lỗi
+                    </td>
+                    <td>
+                        Câu hỏi thường gặp
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <hr>
+
+        </div>
+    </footer>
+
+    <script>
+        function logout() {
+            // Xử lý đăng xuất ở đây
+            document.cookie = "CookiesLogin=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            window.location.href = "/HomePage"; // Chuyển hướng về trang chính
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+﻿@page
+@model DoAnWeb.Pages.ThanhToanThanhCongModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhạc cụ Thành Đạt</title>
+    <link rel="stylesheet" href="../css/Success.css">
+    <link rel="stylesheet" href="~/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/LoginPage" type="text/html" rel="stylesheet" />
+    <script src="~/js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="HomePage">Nhạc cụ Đạt<b style="color: red;">P</b></a></div>
+            <div class="search_box">
+                <input type="search" placeholder="Tìm kiếm">
+                <span class="fa fa-search"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <ion-icon name="list-outline"></ion-icon>
+                        Doanh mục sản phẩm
+                    </a>
+                    <ul class="dropdown">
+                        <li><a href="Piano">Đàn Piano</a></li>
+                        <li><a href="Guitar">Đàn Guitar</a></li>
+                        <li><a href="Trong">Trống</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Cart">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        Giỏ hàng
+                    </a>
+                </li>
+            </ul>
+            @if (User.Identity.IsAuthenticated)
+            {
+
+                <ul id="TaiKhoan">
+                    <li>
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        Tài Khoản
+                        <ul class="dropdown">
+                            <li>
+                                <a href="Info">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                    Thông tin
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <ion-icon name="help-outline"></ion-icon>
+                                    Trợ giúp
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" onclick="logout()">
+                                    <ion-icon name="log-out-outline"></ion-icon>
+                                    Đăng xuất
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            }
+            else
+            {
+                <ul>
+                    <li><a href="~/RegisterPage">Đăng ký</a></li>
+                    <li><a href="~/LoginPage">Đăng nhập</a></li>
+                </ul>
+            }
+        </nav>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            @if (Model.ResponseCode == "00")
+            {
+                <div class="form-login" id="ThanhCong">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center">
+                        <img src="../images/Success2.png" class="img-fluid" alt="Centered Image">
+                    </div>
+                    <br>
+                    <h3>Thanh toán thành công</h3>
+                    <p>Đơn hàng của quý khách đã thanh toán thành công</p>
+                </div>
+            }
+            else
+            {
+                <div class="form-login" id="ThanhCong">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center">
+                        <img src="../images/Fail.png" class="img-fluid" alt="Centered Image">
+                    </div>
+                    <br>
+                    <h3>Thanh toán thất bại</h3>
+                    <p>Đơn hàng của quý khách đã không thể hoàn tất thanh toán</p>
+                </div>
+            }
+
+        </div>
+    </main>
+
+    
+
+    <script>
+        function logout() {
+            // Xử lý đăng xuất ở đây
+            document.cookie = "CookiesLogin=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            window.location.href = "/HomePage"; // Chuyển hướng về trang chính
+        }
+    </script>
+    
+</body>
+</html>

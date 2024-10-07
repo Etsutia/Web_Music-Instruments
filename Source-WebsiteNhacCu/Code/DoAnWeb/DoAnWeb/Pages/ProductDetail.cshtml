@@ -1,0 +1,229 @@
+﻿@page
+@model DoAnWeb.Pages.ProductDetailModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhạc cụ Thành Đạt</title>
+    <link rel="stylesheet" href="~/css/ProductDetail.css">
+    <link rel="stylesheet" href="~/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/LoginPage" type="text/html" rel="stylesheet" />
+    <script src="~/js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="HomePage">Nhạc cụ Đạt<b style="color: red;">P</b></a></div>
+            <div class="search_box">
+                <input type="search" placeholder="Tìm kiếm">
+                <span class="fa fa-search"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <ion-icon name="list-outline"></ion-icon>
+                        Doanh mục sản phẩm
+                    </a>
+                    <ul class="dropdown">
+                        <li><a href="Piano">Đàn Piano</a></li>
+                        <li><a href="Guitar">Đàn Guitar</a></li>
+                        <li><a href="Trong">Trống</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Cart">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        Giỏ hàng
+                    </a>
+                </li>
+            </ul>
+            @if (User.Identity.IsAuthenticated)
+            {
+
+                <ul id="TaiKhoan">
+                    <li>
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        Tài Khoản
+                        <ul class="dropdown">
+                            <li>
+                                <a href="Info">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                    Thông tin
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <ion-icon name="help-outline"></ion-icon>
+                                    Trợ giúp
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" onclick="logout()">
+                                    <ion-icon name="log-out-outline"></ion-icon>
+                                    Đăng xuất
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            }
+            else
+            {
+                <ul>
+                    <li><a href="~/RegisterPage">Đăng ký</a></li>
+                    <li><a href="~/LoginPage">Đăng nhập</a></li>
+                </ul>
+            }
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="product-image">
+                            <img src="~/images\dan-guitar-acoustic-yamaha-jr2-jr-series-viet-music.webp" class="zoom-image img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <table id="sanpham">
+                            <tr>
+                                <th colspan="3">
+                                    ĐÀN GUITAR ACOUSTIC YAMAHA JR2
+                                </th>
+                            </tr>
+                            <tr>
+                                <td colspan="2" id="GiaBan">
+                                    3.290.000 VNĐ
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Giá gốc:
+                                </td>
+                                <td id="GiaTruocKhiGiam">
+                                    4.420.000 VNĐ
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Bảo hành:
+                                </td>
+                                <td>
+                                    12 Tháng
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <button class="btn btn-primary"><ion-icon name="cart-outline"></ion-icon> Thêm vào giỏ hàng</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    Đàn Guitar Acoustic Yamaha Mini 3/4 JR2 là dòng đàn guitar du lịch, được thiết kế kiểu dáng mô phỏng lại series guitar danh tiếng FG của Yamaha. Kích thước nhỏ gọn nhưng lại mang đến 1 sound tiếng acoustic vô cùng chân thực là những ưu điểm nổi trội ở model sản phẩm này. Bạn có thể dễ dàng mang JR2 đến bất kỳ nơi đâu bạn muốn, những buổi party hay dã ngoại ngoài trời cần 1 chút không gian âm nhạc đầy vui vẻ và lý thú. Cây đàn còn được tặng kèm 1 bao guitar mini dầy dặn và xinh xắn + móng gảy, giúp cho việc di chuyển trở nên dễ dàng hơn bao giờ hết.
+                                </td>
+                            </tr>
+                        </table>
+                        <hr>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer-container">
+            <table id="tb-footer">
+                <tr id="hea">
+                    <td>
+                        Công ty ĐạtP
+                    </td>
+                    <td>
+                        Chính Sách
+                    </td>
+                    <td>
+                        Trợ giúp nhanh
+                    </td>
+                    <td rowspan="6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62706.4872326794!2d106.68066304152362!3d10.79940349262307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ba1201ed3b%3A0xdbd5454f32a4294b!2zTmjhuqFjIGPhu6UgVGnhur9uIMSQ4bqhdA!5e0!3m2!1svi!2s!4v1713411274836!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ion-icon name="call-outline"></ion-icon>
+                        Hotline: 19xxxxxxx
+                    </td>
+                    <td>
+                        Chính sách đổi trả và hoàn tiền
+                    </td>
+                    <td>
+                        Khiếu nại & bồi thường
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                        Mobile: 0816063385
+                    </td>
+                    <td>
+                        Chính sách vận chuyển
+                    </td>
+                    <td>
+                        Hướng dẫn mua hàng
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ion-icon name="mail-outline"></ion-icon>
+                        Email: info@DatP.vn
+                    </td>
+                    <td>
+                        Điều khoản dịch vụ
+                    </td>
+                    <td>
+                        Hướng dẫn thanh toán
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        FaceBook: fb.com/DatP
+                    </td>
+                    <td>
+                        Góp ý - Báo lỗi
+                    </td>
+                    <td>
+                        Câu hỏi thường gặp
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <hr>
+
+        </div>
+    </footer>
+
+    <script>
+        function logout() {
+            // Xử lý đăng xuất ở đây
+            document.cookie = "CookiesLogin=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            window.location.href = "/HomePage"; // Chuyển hướng về trang chính
+        }
+    </script>
+</body>
+</html>

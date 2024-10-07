@@ -1,0 +1,100 @@
+﻿@page
+@model DoAnWeb.Pages.RegisterPageModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhạc cụ Thành Đạt</title>
+    <link rel="stylesheet" href="~/css/RegisterPage.css">
+    <link rel="stylesheet" href="~/css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="~/HomePage.html" type="text/html" rel="stylesheet" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="~/HomePage">Nhạc cụ Đạt<b style="color: red;">P</b></a></div>
+            <div class="search_box">
+                <input type="search" placeholder="Tìm kiếm">
+                <span class="fa fa-search"></span>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <ion-icon name="list-outline"></ion-icon>
+                        Doanh mục sản phẩm
+                    </a>
+                    <ul class="dropdown">
+                        <li><a href="Piano">Đàn Piano</a></li>
+                        <li><a href="Guitar">Đàn Guitar</a></li>
+                        <li><a href="Trong">Trống</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="Cart">
+                        <ion-icon name="cart-outline"></ion-icon>
+                        Giỏ hàng
+                    </a>
+                </li>
+                <li><a href="#">Đăng ký</a></li>
+                <li><a href="~/LoginPage">Đăng nhập</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="wrapper">
+        <div class="form-login">
+            <h3>Đăng ký</h3>
+            <form method="post">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                    <input asp-for="tendangnhap" type="text" required>
+                    <label for="username">Tên đăng nhập</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input asp-for="matkhau" type="password" required>
+                    <label for="password">Mật khẩu</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+                    <input asp-for="hoten" type="text" required>
+                    <label for="name">Họ và Tên</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input asp-for="email" type="email" required>
+                    <label for="mail">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                    <input asp-for="sodt" type="text" required>
+                    <label for="phonenumber">Số điện thoại</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <input asp-for="diachi" type="text" required>
+                    <label for="address">Địa chỉ</label>
+                </div>
+                <button type="submit" class="btn" id="btn-DK">Đăng ký</button>
+                <div class="login-register">
+                    <p>Bạn đã có tài khoản rồi?<a href="~/LoginPage" class="register-link">Đăng nhập</a></p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    
+
+</body>
+</html>
