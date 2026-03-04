@@ -1,6 +1,6 @@
 # Website Bán Nhạc Cụ
-Dự án cuối môn học Phát triển ứng dụng Web tại Trường Đại học Quốc tế Hồng Bàng. Đây là một website thương mại điện tử chuyên biệt để giới thiệu và kinh doanh các mặt hàng nhạc cụ với mức giá chính xác, tích hợp thanh toán VNPay.
 ------------------------------------------------
+Dự án cuối môn học Phát triển ứng dụng Web tại Trường Đại học Quốc tế Hồng Bàng. Đây là một website thương mại điện tử chuyên biệt để giới thiệu và kinh doanh các mặt hàng nhạc cụ với mức giá chính xác, tích hợp thanh toán VNPay.
 
 ## ✨ Chức năng chính
 
