@@ -1,36 +1,36 @@
-# Website Bán Nhạc Cụ
+# Musical Instrument Store Website (web Razor Pages)
 ------------------------------------------------
-Dự án cuối môn học Phát triển ứng dụng Web tại Trường Đại học Quốc tế Hồng Bàng. Đây là một website thương mại điện tử chuyên biệt để giới thiệu và kinh doanh các mặt hàng nhạc cụ với mức giá chính xác, tích hợp thanh toán VNPay.
+This project was developed as a final assignment for the Web Application Development course at Hong Bang International University. It is a specialized e-commerce platform designed for showcasing and retailing musical instruments with accurate pricing and integrated online payment gateways (VNPay).
 
-## ✨ Chức năng chính
+## ✨ Key Features
 
-👤 Dành cho Khách hàng
- - Đăng ký/Đăng nhập: Tạo tài khoản để lưu trữ giỏ hàng và theo dõi đơn hàng.
- - Quản lý tài khoản: Xem và cập nhật thông tin cá nhân.
- - Tìm kiếm & Phân loại: Tìm nhạc cụ theo tên hoặc danh mục (Piano, Guitar, Trống).
- - Giỏ hàng: Thêm, xóa và quản lý số lượng sản phẩm cần mua.
- - Thanh toán Online: Tích hợp cổng thanh toán VN Pay tiện lợi.
+👤 For Customers
+ - Authentication: Register and login to manage shopping carts and track orders.
+ - Account Management: View and update personal profile information.
+ - Search & Filter: Find instruments by name or specific categories (Piano, Guitar, Drums).
+ - Shopping Cart: Add, remove, and manage product quantities before checkout.
+ - Online Payment: Integrated with VNPay for secure and convenient transactions.
 
-🛡️ Dành cho Quản trị viên (Admin)
-- Quản lý sản phẩm: Thêm, sửa, xoá các sản phẩm và danh mục nhạc cụ.
-- Quản lý người dùng: Kiểm soát tài khoản khách hàng.
-- Xử lý đơn hàng: Tiếp nhận và kiểm tra các đơn đặt hàng từ khách.
-- Thống kê: Theo dõi chi tiết đơn hàng và báo cáo doanh thu của cửa hàng.
+🛡️ For Administrators (Admin)
+- Product Management: Create, Read, Update, and Delete (CRUD) products and categories.
+- User Management: Monitor and control customer accounts.
+- Order Processing: Receive and verify incoming customer orders.
+- Statistics & Reports: Track order details and generate store revenue reports.
 ------------------------------------------------
 
-## 🛠️ Công nghệ sử dụng
+## 🛠️ Tech Stack
 
 Backend & Framework
-- ASP.NET Core: Framework mã nguồn mở hiệu suất cao của Microsoft.
-- Razor Pages: Mô hình lập trình trang hiện đại, tích hợp code-behind (.cshtml.cs).
+- ASP.NET Core: Microsoft's high-performance, open-source framework.
+- Razor Pages: A modern page-based programming model with integrated code-behind (.cshtml.cs).
 
 Frontend
-- HTML5 & CSS3: Xây dựng cấu trúc và định dạng giao diện.
-- JavaScript: Xử lý các tính năng tương tác người dùng.
-- Bootstrap: Framework CSS giúp website hiển thị linh hoạt (Responsive) trên nhiều thiết bị.
+- HTML5 & CSS3: Core technologies for building and styling the user interface.
+- JavaScript: Handles client-side interactivity and logic.
+- Bootstrap: A CSS framework for ensuring a Responsive Design across multiple devices.
 
 ------------------------------------------------
-## Cơ sở dữ liệu & Công cụ
-- SQL Server: Hệ quản trị cơ sở dữ liệu quan hệ.
-- Visual Studio: Môi trường phát triển tích hợp (IDE) chính.
-- Power Designer & Draw.io: Thiết kế mô hình cơ sở dữ liệu và sơ đồ Use Case.
+## Database & Tools
+- SQL Server: Relational Database Management System (RDBMS).
+- Visual Studio: Primary Integrated Development Environment (IDE).
+- Power Designer & Draw.io: Tools used for Database Schema design and Use Case modeling.
